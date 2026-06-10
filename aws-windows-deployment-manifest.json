@@ -1,0 +1,15 @@
+{
+  "manifestVersion": 1,
+  "deployments": {
+    "msDeploy": [
+      {
+        "name": "demoframeworkapp",
+        "parameters": {
+          "appBundle": "publish.zip",
+          "iisPath": "/",
+          "iisWebSite": "Default Web Site"
+        }
+      }
+    ]
+  }
+}
